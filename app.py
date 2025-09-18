@@ -132,7 +132,7 @@ st.title("Swallow Audio Viewer")
 st.write("This streamlit app allows you to view the audio signals and labels for the Swallow Resnet dataset.")
 st.write("The dataset is available at https://zenodo.org/records/4539695")
 st.write("The paper is available at https://dcase.community/documents/challenge2019/technical_reports/DCASE2019_Kiyokawa_101.pdf")
-
+st.write("average duration of the audio signals is 8.94 seconds")
 signal_files = list_signal_files(DATA_ROOT)
 if not signal_files:
     st.warning("No .npy files found under data/signals/")
